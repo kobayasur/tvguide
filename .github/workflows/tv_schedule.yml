@@ -2,7 +2,7 @@ name: Daily TV Schedule Notifier
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # UTC 3:00 = 日本時間 12:00
+    - cron: '5 3 * * *'  # UTC 3:00 = 日本時間 12:05
   workflow_dispatch:      # GitHub画面から手動実行できるようにする
 
 jobs:
